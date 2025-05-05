@@ -1,0 +1,41 @@
+
+#calculadora
+
+
+
+
+print("selecione qual é a operação")
+print("1-soma")
+print("2-subtração")
+print("3-multiplição")
+print("4-divisao")
+
+
+escolha = int(input("digite o numero da operação que voce deseja(1/2/3/4): "))
+
+number1 = float(input("coloque o primeiro numeros ")) 
+number2 = float(input("coloque o segundo numero "))
+
+soma = number1 + number2
+sub = number1 - number2
+mult = number1 * number2
+div = number1 / number2
+
+
+if escolha == 1:
+
+    print ("RESULTADO: ", soma )
+
+elif escolha == 2:
+    print ("RESULDADO: ", sub)
+
+elif escolha == 3:
+    print('RESULTAD0: ',mult)
+
+elif escolha == 4:
+    print('RESULTADO: ', div)
+
+else:
+    print("opçao invalido")
+
+

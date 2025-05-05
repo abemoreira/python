@@ -1,0 +1,20 @@
+convidados =[]
+
+while True:
+    nome = input("digite o nome do convidado ou 'sair' para encerrar: ")
+    
+    if nome == "sair":
+        break
+    
+    convidados.append(nome)
+    print(f"{nome} foi adicionada na lista")
+
+    if len(convidados) > 5:
+     print("a lista de convidados está ficando cheia")
+
+print("\nLista final dos convidados: \n")
+
+for nome in convidados:
+   print("-",nome)
+
+print(f"total de convidados: {len(convidados)}")
